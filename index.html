@@ -2,7 +2,7 @@
 <html>
     <head>
         <mete charset=""usf-8>
-        <title>新春おみくじ</title>
+        <title>2024年新春ツナみくじ</title>
         <link rel="stylesheet" type="text/css" href="medeta.css">
 
     </head>
@@ -14,11 +14,11 @@
     
     <body>
         <p>
-            あけましておめでとうございます。<br>
+            あけましておめでとうございます!!<br>
             昨年は大変お世話になりました。<br>
             今年も様々なことが起こるかと思いますが、
             良き一年をお過ごしください!<br><br>
-            令和六年 元旦<br><br>
+            令和六年 元旦<br><br><br>
         </p>
         
         <div style="background: #e9e4d4; border: 1px solid #e9e4d4; padding-left: 20px;">
@@ -32,7 +32,7 @@
             <button id="draw" class="btn">おみくじを引く</button>
             <p id="start" class="start">
                 <br><br>
-                <img id="rotate" src="omikuji.png" width="100" alt="おみくじ">
+                <img id="rotate" src="omikuji.png" width="150" alt="おみくじ">
             </p>
             <p>
                 <img src="" id="fortune" class="fortune">
@@ -131,7 +131,7 @@
                 function fortuneAnime() {
                 const key = Math.floor(Math.random() * results.length);
                 const fortune = document.getElementById("fortune");
-                fortune.style.width = '120px';
+                fortune.style.width = '200px';
                 fortune.style.height = 'auto';
                 fortune.src = results[key];
                 fortune.animate(

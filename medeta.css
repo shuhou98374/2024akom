@@ -51,5 +51,8 @@ blockquote{
     text-decoration: none;
     color: #e9e4d4;
   }
-
+button{
+    width: 10em;height:3em;
+    font-color: #000;
+    }
   
